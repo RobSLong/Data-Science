@@ -9,7 +9,7 @@ The code consists of the following steps
      $$\beta_0 = \overline{y} - \beta_1 \overline{x} $$
   4. Evaluate model - here we have chosen the basic correlation coefficient (and consequently the coefficient of determination, which measures the amount of variance for which the model can account for)
    $$R^2 = \dfrac{N \sum{xy} - \sum{x}(\sum{y})}
-{\left[ N \sum{x^2}-(\sum{x})^2 \right]}$$
+{\left[ N \sum{x^2}-(\sum{x})^2 \right] \left[ N \sum{y^2}-(\sum{y})^2 \right]}$$
 
   6. Plot data and line of best fit
   
