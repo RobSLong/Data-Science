@@ -10,7 +10,7 @@ The coefficients are evaluated as
 
 $$ \beta_0 = \overline{y} -  \beta_1 \overline{x} $$
 
-$$ \beta_1 = \dfrac{\sum{\left(x-\overline{x}\right)}\sum{y- \overline{y}}}{\sum{(x-\overline{x})^2} } $$
+$$ \beta_1 = \dfrac{\sum{\left(x-\overline{x}\right)}\sum{\left(y- \overline{y} \right)}}{\sum{\left(x-\overline{x}\right)^2} } $$
 
 
 ## Linear Regression
