@@ -22,7 +22,7 @@ The code consists of the following steps
   6. Plot data and line of best fit
   
   <p align="center">
-  <img src = "https://github.com/RobSLong/Data-Science/blob/main/Regression/linear_regression/figures/regression_line.png" width="350" />
+  <img src = "https://github.com/RobSLong/Data-Science/blob/main/Regression/linear_regression/figures/regression_line.png" width="450" />
   </p>
  
   6. Plot residuals and a histogram of residuals to check there is no pattern in the residual spread
