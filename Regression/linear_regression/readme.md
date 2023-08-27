@@ -8,6 +8,8 @@ Using sales data we investigate the relationship between the number of years exp
 $$y = \beta_0 + \beta_1 x,$$
 where $y$ is the salary in USD ($) and $x$ is the number of years experience. We use the least squares method to estimate the coefficients $\beta_0$ (the salary associated with 0 years experience) and $\beta_1$ (the salary increase per year of additional experience).
 
+The model is evaluated using the $R^2$ value (coefficient of determination) and shows that 96% of the variance is salary is accounted for. Even the worst case overprediction and underprediction are within 12% of the true value but the model performs noticably better for most predictions.
+
 ## Methodology
 The code consists of the following steps
   1. Load data (read directly from a .csv file)
