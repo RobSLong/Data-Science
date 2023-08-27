@@ -1,5 +1,6 @@
 # Simple Linear Regression
 
+## Introduction
 This repo. consists of a basic implementation of linear regression from scratch using the least squares estimation. The goal of this repo. is to show the process of building a model and the type of visuals which can add value and aid understanding.
 
 Using sales data we investigate the relationship between the number of years experience and the salary of data scientists in the US. Assuming a linear relationship we look for an equation of the form
@@ -7,6 +8,7 @@ Using sales data we investigate the relationship between the number of years exp
 $$y = \beta_0 + \beta_1 x,$$
 where $y$ is the salary in USD ($) and $x$ is the number of years experience. We use the least squares method to estimate the coefficients $\beta_0$ (the salary associated with 0 years experience) and $\beta_1$ (the salary increase per year of additional experience).
 
+## Methodology
 The code consists of the following steps
   1. Load data (read directly from a .csv file)
   2. Build a regression model by writing a function to calculate the least squares expressions for the coefficients
