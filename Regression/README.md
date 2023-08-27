@@ -9,6 +9,8 @@ where the fitted parameters $\beta_0$ and $\beta_1$ represent the y-intercept an
 The coefficients are evaluated as
 
 $$ \beta_0 = \overline{y} -  \beta_1 \overline{x} $$
+$$ \beta_1 = \dfrac{}{\sum{x-\overline{x}} } $$
+
 
 ## Linear Regression
 For this example, we use salary data to build a model to predict the salary based on the number of years of experience, we implement different methods of regression and compare them quantitatively looking at their coefficient of determination and the relative misfit.
