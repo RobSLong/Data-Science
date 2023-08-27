@@ -9,7 +9,8 @@ where the fitted parameters $\beta_0$ and $\beta_1$ represent the y-intercept an
 The coefficients are evaluated as
 
 $$ \beta_0 = \overline{y} -  \beta_1 \overline{x} $$
-$$ \beta_1 = \dfrac{}{\sum{x-\overline{x}} } $$
+
+$$ \beta_1 = \dfrac{\sum{a}}{\sum{x-\overline{x}} } $$
 
 
 ## Linear Regression
