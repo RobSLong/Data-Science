@@ -4,7 +4,9 @@ This repo. consists of a very basic implementation of linear regression from scr
 The code consists of the following steps
   1. Load data (read directly from a .csv file)
   2. Build regression model built by writing a function to calculate the least squares expressions for the coefficients
+  3. 
      $$\beta_1= \dfrac{\sum{(x- \overline{x})(y- \overline{y})}}{\sum{(x- \overline{x})^2}}$$
+     
      $$\beta_0 = \overline{y} - \beta_1 \overline{x} $$
   4. Evaluate model
   5. Plot data and line of best fit
