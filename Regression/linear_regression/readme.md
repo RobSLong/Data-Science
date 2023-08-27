@@ -1,4 +1,5 @@
 # Simple Linear Regression
+
 This repo. consists of a very basic implementation of linear regression from scratch using the least squares estimation. The purpose is to show the process of building a model and the type of visuals which can add value and understanding.
 The code consists of the following steps
   1. Load data (read directly from a .csv file)
