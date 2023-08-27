@@ -10,7 +10,9 @@ The code consists of the following steps
      $$\beta_0 = \overline{y} - \beta_1 \overline{x} $$
   4. Evaluate model
   5. Plot data and line of best fit
-  6. Plot residuals and a histogram of residuals to check there is no pattern in the residual spread
+  <p align="center">
+  <img src = "https://github.com/RobSLong/Data-Science/blob/main/Regression/linear_regression/figures/regression_line.png" width="350" />
+  </p>
+  7. Plot residuals and a histogram of residuals to check there is no pattern in the residual spread
 
-beta1 = (((x - xmean)*(y - ymean)).sum()) / (((x - xmean)**2.).sum())
-    beta0 = ymean - (beta1 * xmean)
+
